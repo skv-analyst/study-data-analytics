@@ -1,0 +1,10 @@
+[project]
+name = "02-type-hinting"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "pydantic-settings>=2.13.1",
+    "requests>=2.32.5",
+]

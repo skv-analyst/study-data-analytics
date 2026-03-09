@@ -1,4 +1,3 @@
-from typing import NamedTuple
 from dataclasses import dataclass
 from config import settings
 
@@ -18,4 +17,3 @@ def get_gps_coordinates() -> Coordinates:
 
 
 coordinates = get_gps_coordinates()
-print(f"Широта: {coordinates.latitude}", f"Долгота: {coordinates.longitude}", sep="\n")

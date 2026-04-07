@@ -1,0 +1,11 @@
+[project]
+name = "03-mathematics-decision-making"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "ortools>=9.15.6755",
+    "scipy>=1.17.1",
+    "simpy>=4.1.1",
+]

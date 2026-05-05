@@ -1,0 +1,10 @@
+# Яндекс Образование - Agents Week 2026
+- [ ] [Лекция 1.1 Intro to AI Agents LLM](https://www.youtube.com/live/C1OCgbONSAw)
+- [ ] [Лекция 1.2 Tools. MCP](https://www.youtube.com/live/VctYHtCap3o)
+- [ ] [Лекция 2 Memory and Guardrails in LLM-Powered Agents](https://www.youtube.com/live/iJGh5cBSReo)
+- [ ] [Семинар 2 Memory and Guardrails in LLM-Powered Agents](https://www.youtube.com/live/JEFiiM9C_po)
+- [ ] [Лекция 3 AI Agent Workflow Multi-Agent Systems Multimodality](https://www.youtube.com/live/_gdXItwkhUE)
+- [ ] [Семинар 3 AI Agent Workflow Multi-Agent Systems Multimodality](https://www.youtube.com/live/s4BfSnWwAQE)
+- [ ] [Лекция 4 Agent Evaluation: From Metrics to Managed Quality](https://www.youtube.com/live/RqM3G3STkGE)
+- [ ] [Семинар 4 Agent Evaluation: From Metrics to Managed Quality](https://www.youtube.com/live/VYEX17iibkQ)
+- [ ] [Лекция 5.1 Production Engineering for LLM Agents](https://www.youtube.com/live/sNemTIFlz08)

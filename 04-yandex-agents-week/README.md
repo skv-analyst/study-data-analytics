@@ -1,5 +1,6 @@
 # Яндекс Образование - Agents Week 2026
-- [ ] [Лекция 1.1 Intro to AI Agents LLM](https://www.youtube.com/live/C1OCgbONSAw)
+Проработка курса по агентам от Яндекс Образования.
+- [x] [Лекция 1.1 Intro to AI Agents LLM](https://www.youtube.com/live/C1OCgbONSAw)
 - [ ] [Лекция 1.2 Tools. MCP](https://www.youtube.com/live/VctYHtCap3o)
 - [ ] [Лекция 2 Memory and Guardrails in LLM-Powered Agents](https://www.youtube.com/live/iJGh5cBSReo)
 - [ ] [Семинар 2 Memory and Guardrails in LLM-Powered Agents](https://www.youtube.com/live/JEFiiM9C_po)

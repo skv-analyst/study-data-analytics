@@ -1,11 +1,29 @@
 # Яндекс Образование - Agents Week 2026
 Проработка курса по агентам от Яндекс Образования.
-- [x] [Лекция 1.1 Intro to AI Agents LLM](https://www.youtube.com/live/C1OCgbONSAw)
-- [ ] [Лекция 1.2 Tools. MCP](https://www.youtube.com/live/VctYHtCap3o)
+- [x] **1.1 Intro to AI Agents LLM**
+  - **Резюме.** Общая концепция создания агентов и базовый пример "голого" агента.
+  - **Артефакты.** [Лекция](https://www.youtube.com/live/C1OCgbONSAw), [код](./01-intro-to-ai-agents-llm.ipynb)
+- [ ] **Лекция 1.2 Tools. MCP**
+  - **Резюме.** Общая концепция использования инструментов и менеджера контекста (MCP).
+  - **Артефакты.** [Лекция](https://www.youtube.com/live/VctYHtCap3o), [код](./02-intro-to-tools-mcp-llm.ipynb)
 - [ ] [Лекция 2 Memory and Guardrails in LLM-Powered Agents](https://www.youtube.com/live/iJGh5cBSReo)
+  - **Резюме.** 
+  - **Артефакты.** 
 - [ ] [Семинар 2 Memory and Guardrails in LLM-Powered Agents](https://www.youtube.com/live/JEFiiM9C_po)
+  - **Резюме.** 
+  - **Артефакты.** 
 - [ ] [Лекция 3 AI Agent Workflow Multi-Agent Systems Multimodality](https://www.youtube.com/live/_gdXItwkhUE)
+  - **Резюме.** 
+  - **Артефакты.** 
 - [ ] [Семинар 3 AI Agent Workflow Multi-Agent Systems Multimodality](https://www.youtube.com/live/s4BfSnWwAQE)
+  - **Резюме.** 
+  - **Артефакты.** 
 - [ ] [Лекция 4 Agent Evaluation: From Metrics to Managed Quality](https://www.youtube.com/live/RqM3G3STkGE)
+  - **Резюме.** 
+  - **Артефакты.**
 - [ ] [Семинар 4 Agent Evaluation: From Metrics to Managed Quality](https://www.youtube.com/live/VYEX17iibkQ)
+  - **Резюме.** 
+  - **Артефакты.**
 - [ ] [Лекция 5.1 Production Engineering for LLM Agents](https://www.youtube.com/live/sNemTIFlz08)
+  - **Резюме.** 
+  - **Артефакты.**

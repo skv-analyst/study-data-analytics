@@ -9,7 +9,7 @@
 - [x] **3. Memory and Guardrails in LLM-Powered Agents. Лекция.**
   - **Резюме.** Память (краткосрочная, долгосрочная и технологии вроде RAG) превращает базовую языковую модель в полноценного агента, позволяя ему накапливать знания и непрерывно поддерживать контекст диалога. Однако, поскольку такие агенты способны совершать реальные действия, им критически необходима встроенная система защиты (Guardrails), которая является обязательной частью архитектуры. Эта система использует многоуровневые фильтры контента и строгие ограничители действий, чтобы предотвратить катастрофические последствия от инъекций промптов, джейлбрейков и галлюцинаций.
   - **Артефакты.** [Лекция](https://www.youtube.com/live/iJGh5cBSReo)
-- [ ] **4. Memory and Guardrails in LLM-Powered Agents. Пракитка**
+- [x] **4. Memory and Guardrails in LLM-Powered Agents. Пракитка**
   - **Резюме.** 
   - **Артефакты.** [Лекция](https://www.youtube.com/live/JEFiiM9C_po)
 - [ ] **5.AI Agent Workflow Multi-Agent Systems Multimodality. Лекция.**
@@ -24,6 +24,6 @@
 - [ ] **8. Agent Evaluation: From Metrics to Managed Quality. Практика.**
   - **Резюме.** 
   - **Артефакты.** [Лекция](https://www.youtube.com/live/VYEX17iibkQ)
-- [ ] **Лекция 5.1 Production Engineering for LLM Agents**
+- [ ] **9. Production Engineering for LLM Agents. Лекция**
   - **Резюме.** 
   - **Артефакты.** [Лекция](https://www.youtube.com/live/sNemTIFlz08)

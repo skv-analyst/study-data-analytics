@@ -1,0 +1,11 @@
+[project]
+name = "05-etna"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "etna[all] @ git+https://github.com/etna-team/etna.git@3.0.0",
+    "jupyter>=1.1.1",
+    "pandas>=2.3.3",
+]

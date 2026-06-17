@@ -7,5 +7,6 @@ requires-python = ">=3.11"
 dependencies = [
     "etna[all] @ git+https://github.com/etna-team/etna.git@3.0.0",
     "jupyter>=1.1.1",
+    "mlflow>=3.13.0",
     "pandas>=2.3.3",
 ]

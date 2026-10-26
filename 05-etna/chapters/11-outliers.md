@@ -3,7 +3,7 @@
 <!--
 Шаблон главы. Источник — глава 17 пособия (ноутбук «01.-18._Общее знакомство с библиотекой ETNA»).
 Ключевые классы ETNA 3.0.0 (проверены по установленной библиотеке): поиск: get_anomalies_median / density / prediction_interval / iqr / mad / isolation_forest, plot_anomalies; замена: MedianOutliersTransform, DensityOutliersTransform, PredictionIntervalOutliersTransform, IQROutlierTransform, MADOutlierTransform, IForestOutlierTransform — выбросы превращаются в пропуски, дальше их заполняет TimeSeriesImputerTransform.
-Код и задания — в ../notebooks/11-outliers.ipynb. Синтаксис (вопрос в зал, ответ под катом, картинки) — _templates/chapter.md
+Код и задания — в ../notebooks/11-outliers.ipynb. Синтаксис (вопрос, ответ под катом, картинки) — _templates/chapter.md
 -->
 
 Коротко: какую задачу решаем и зачем это аналитику.
@@ -18,7 +18,7 @@
 
 ## 2. Практика
 
-<!-- По одному блоку на задание из ноутбука: вопрос в зал → картинка или таблица из ноутбука → ответ под катом. -->
+<!-- По одному блоку на задание из ноутбука: вопрос → картинка или таблица из ноутбука → ответ под катом. -->
 
 ### Задание 1. Синтетика: найти вставленные выбросы
 

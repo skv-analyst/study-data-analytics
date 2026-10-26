@@ -3,7 +3,7 @@
 <!--
 Шаблон главы. Источник — глава 16 пособия (ноутбук «01.-18._Общее знакомство с библиотекой ETNA»).
 Ключевые классы ETNA 3.0.0 (проверены по установленной библиотеке): анализ: plot_trend, seasonal_plot, stl_plot, acf_plot, plot_periodogram; трансформы: LinearTrendTransform, TheilSenTrendTransform, ChangePointsTrendTransform, STLTransform, DeseasonalityTransform, DifferencingTransform, FourierTransform, HolidayTransform.
-Код и задания — в ../notebooks/12-trend-seasonality.ipynb. Синтаксис (вопрос в зал, ответ под катом, картинки) — _templates/chapter.md
+Код и задания — в ../notebooks/12-trend-seasonality.ipynb. Синтаксис (вопрос, ответ под катом, картинки) — _templates/chapter.md
 -->
 
 Коротко: какую задачу решаем и зачем это аналитику.
@@ -18,7 +18,7 @@
 
 ## 2. Практика
 
-<!-- По одному блоку на задание из ноутбука: вопрос в зал → картинка или таблица из ноутбука → ответ под катом. -->
+<!-- По одному блоку на задание из ноутбука: вопрос → картинка или таблица из ноутбука → ответ под катом. -->
 
 ### Задание 1. Синтетика: разложить ряд на части
 

@@ -1,0 +1,25 @@
+/* Подсказка для аббревиатур {abbr}`ТЕРМИН (расшифровка)`: появляется сразу при наведении в любом браузере.
+   Штатная подсказка браузера (атрибут title) показывается с задержкой, а во встроенных браузерах — не всегда. */
+abbr[title] {
+  position: relative;
+  cursor: help;
+  text-decoration: underline dotted;
+}
+
+abbr[title]:hover::after {
+  content: attr(title);
+  position: absolute;
+  left: 0;
+  top: calc(100% + 4px);
+  z-index: 10;
+  width: max-content;
+  max-width: 320px;
+  padding: 4px 8px;
+  border: 1px solid var(--pst-color-border);
+  border-radius: 4px;
+  background: var(--pst-color-surface);
+  color: var(--pst-color-text-base);
+  font-size: 0.85em;
+  line-height: 1.4;
+  white-space: normal;
+}

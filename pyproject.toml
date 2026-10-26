@@ -1,0 +1,11 @@
+[project]
+name = "study-data-analytics"
+version = "0.1.0"
+description = "Книга с материалами по изучению тем и методов для аналитики"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "ipython",  # подсветка кода ноутбуков (лексер ipython3)
+    "jupyter-book>=1.0.4,<2",
+    "sphinxcontrib-mermaid",
+]

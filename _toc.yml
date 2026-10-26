@@ -1,0 +1,18 @@
+# Оглавление книги. Тема = один пункт верхнего уровня (её README), главы темы — sections внутри него:
+# так тема сворачивается в боковом меню. Новая тема — новая папка и новый блок «- file: <тема>/README».
+# В книгу входят только перечисленные здесь файлы: главы — это <тема>/chapters/*.md,
+# рабочие ноутбуки (<тема>/notebooks/) в книгу не входят.
+format: jb-book
+root: index
+chapters:
+  - file: 05-etna/README
+    sections:
+      - file: 05-etna/library-map
+      - file: 05-etna/chapters/10-imputation
+      - file: 05-etna/chapters/11-outliers
+      - file: 05-etna/chapters/12-trend-seasonality
+      - file: 05-etna/chapters/13-predictability
+      - file: 05-etna/chapters/14-clustering
+      - file: 05-etna/chapters/15-classification
+      - file: 05-etna/chapters/16-hierarchical
+      - file: 05-etna/models

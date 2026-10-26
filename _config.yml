@@ -1,0 +1,56 @@
+# Настройки книги (Jupyter Book 1). Сборка: uv run jupyter-book build .
+title: Прикладная аналитика данных
+author: Константин Самсонов
+copyright: "2026"
+logo: _static/logo.jpg
+
+# Главы книги — markdown (<тема>/chapters/*.md). Если в _toc.yml когда-нибудь попадёт ноутбук,
+# он войдёт с уже посчитанными выходами: при сборке ничего не пересчитывается
+execute:
+  execute_notebooks: "off"
+
+# Собираем только то, что есть в _toc.yml: недоделанные материалы в книгу не попадают
+only_build_toc_files: true
+exclude_patterns:
+  - ".venv"
+  - "**/.venv"
+  - "**/local"
+  - "_build"
+  - "_ext"
+  - "_templates"
+  - "_local/showcase/_build"
+
+parse:
+  myst_enable_extensions:
+    - dollarmath     # формулы $...$ и $$...$$
+    - amsmath        # \begin{align} и другие окружения LaTeX
+    - colon_fence    # директивы через :::
+    - deflist        # списки определений
+    - tasklist       # чек-листы - [ ] / - [x]
+    - strikethrough  # ~~зачёркнутый~~ текст
+    - linkify        # голые ссылки становятся кликабельными
+    - html_image     # <img> с размерами прямо в тексте
+
+repository:
+  url: https://github.com/skv-analyst/study-data-analytics
+  branch: main
+
+html:
+  favicon: _static/favicon.png
+  use_repository_button: true
+  use_issues_button: false
+  use_edit_page_button: false
+  home_page_in_navbar: true
+
+launch_buttons:
+  notebook_interface: ""
+
+sphinx:
+  extra_extensions:
+    - sphinxcontrib.mermaid
+  local_extensions:
+    lexers: _ext  # ipython2 → ipython3 для подсветки кода
+  config:
+    language: ru
+    myst_fence_as_directive: ["mermaid"]
+    suppress_warnings: ["myst.strikethrough"]  # книга собирается только в HTML, где ~~зачёркивание~~ работает

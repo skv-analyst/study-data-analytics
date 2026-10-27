@@ -89,6 +89,17 @@ etna version: 3.0.0
 OK: TSDataset and NaiveModel imported successfully
 ```
 
+### Модель анализатора прогнозируемости
+
+Для тетрадки `13-predictability.ipynb` нужен предобученный `PredictabilityAnalyzer`. В библиотеку он не входит:
+файл (7.8 МБ) скачивается с сервера разработчиков ETNA в папку `local/models/`, которая в git не попадает.
+
+```bash
+mkdir -p local/models
+curl -o local/models/weasel_D.pickle "http://etna-github-prod.cdn-tinkoff.ru/series_classification/22_11_2022/D/weasel.pickle"
+uv run python -W ignore -c "from etna.experimental.classification import PredictabilityAnalyzer as P; P.load('local/models/weasel_D.pickle'); print('OK')"
+```
+
 ## Логирование экспериментов (MLflow)
 
 Метрики моделей из ноутбуков логируются через `log_to_mlflow()` (см. [`src/custom_logger.py`](src/custom_logger.py))

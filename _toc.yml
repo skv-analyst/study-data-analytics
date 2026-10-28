@@ -7,6 +7,7 @@ root: index
 chapters:
   - file: 05-etna/README
     sections:
+      - file: 05-etna/basics
       - file: 05-etna/library-map
       - file: 05-etna/chapters/10-imputation
       - file: 05-etna/chapters/11-outliers
@@ -15,4 +16,4 @@ chapters:
       - file: 05-etna/chapters/14-clustering
       - file: 05-etna/chapters/15-classification
       - file: 05-etna/chapters/16-hierarchical
-      - file: 05-etna/models
+      - file: 05-etna/chapters/17-project-plan

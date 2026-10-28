@@ -1,13 +1,15 @@
 /* Подсказка для аббревиатур {abbr}`ТЕРМИН (расшифровка)`: появляется сразу при наведении в любом браузере.
-   Штатная подсказка браузера (атрибут title) показывается с задержкой, а во встроенных браузерах — не всегда. */
-abbr[title] {
+   Штатная подсказка браузера (атрибут title) показывается с задержкой, а во встроенных браузерах — не всегда.
+   Чтобы она не дублировала нашу, _static/abbr.js переносит title в data-tip. */
+abbr[title],
+abbr[data-tip] {
   position: relative;
   cursor: help;
   text-decoration: underline dotted;
 }
 
-abbr[title]:hover::after {
-  content: attr(title);
+abbr[data-tip]:hover::after {
+  content: attr(data-tip);
   position: absolute;
   left: 0;
   top: calc(100% + 4px);

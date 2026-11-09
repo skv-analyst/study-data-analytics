@@ -1,0 +1,15 @@
+[project]
+name = "study-etna"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "etna[all]",
+    "ipykernel>=7.3.0",
+    "mlflow>=3.16.1",
+    "scikit-learn<1.6",
+]
+
+[tool.uv.sources]
+etna = { git = "https://github.com/etna-team/etna.git", rev = "3.0.0" }

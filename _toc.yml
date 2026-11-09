@@ -9,6 +9,15 @@ chapters:
     sections:
       - file: 05-etna/basics
       - file: 05-etna/library-map
+      - file: 05-etna/chapters/01-tsdataset
+      - file: 05-etna/chapters/02-naive-model
+      - file: 05-etna/chapters/03-moving-average-model
+      - file: 05-etna/chapters/04-seasonal-moving-average-model
+      - file: 05-etna/chapters/05-sarimax
+      - file: 05-etna/chapters/06-holt-winters-model
+      - file: 05-etna/chapters/07-prophet-model
+      - file: 05-etna/chapters/08-catboost
+      - file: 05-etna/chapters/09-ensembles
       - file: 05-etna/chapters/10-imputation
       - file: 05-etna/chapters/11-outliers
       - file: 05-etna/chapters/12-trend-seasonality
